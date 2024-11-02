@@ -13,6 +13,15 @@ The following models were evaluated in this study:
 - Images were preprocessed to ensure consistency, including resizing to uniform dimensions and standardizing formats to JPEG and PNG.
 - The dataset was split into training, validation, and test sets (60%, 20%, and 20%) to provide a fair comparison across models.
 
+## Dataset and Preprocessing Files
+
+Due to their large size, the folders for data preprocessing and the resized dataset are not included directly in this repository. Instead, they can be downloaded from the **Releases** section.
+
+- **Preprocessing**: This folder contains scripts and resources used in the data cleaning and preprocessing steps, which prepare the raw data for analysis and model training.
+- **Resized_Dataset**: This folder contains the dataset after resizing and standardization, formatted for input into the deep learning models.
+
+You can download both folders as a compressed file from the latest [GitHub Release](https://github.com/danielteng520/Rotten-Fruit-Classification/releases/tag/v1.0)
+
 ## Approach
 1. **Preprocessing**: Images were resized and standardized. Data augmentation and transfer learning were applied to improve model robustness.
 2. **Evaluation Metrics**: Models were assessed using accuracy, AUC-ROC scores, and confusion matrices to capture performance across various metrics.
